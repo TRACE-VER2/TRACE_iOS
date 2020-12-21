@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <style>
+      .picture {
+      max-width: 100%;
+      margin : 0 auto;
+    }
+    html, body{
+      margin: 0 auto;
+      background: lightblue;
+      width: 300px;
+      height: 600px;
+    }
+    input{
+      background-color: lightblue;
+    }
+    a{
+      text-decoration:none;
+      color:black;
+      font-size:20px;
+    }
+    p{
+      text-align: center;
+      margin-top: 20%;
+      margin-bottom: 0 auto;
+    }
+    #login{
+      margin-top: 10%;
+    }
+    #make{
+      border:none;
+      border-bottom-style:solid;
+    }
+    input[type=text]{
+      border:none;
+      border-bottom-style:solid;
+      width:280px;
+    }
+    input[type=submit]{
+      background:none;
+      font-size:20px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="picture">
+        <center><img src="trace1.png" alt="TRACE" style="width:300px;height:150px;"></center>
+    </div>
+    <form action="">  <!—입력어디론가 전송—>
+    <p><input type="text" placeholder="아이디" name="name" style="font-size: 20px;"></p>
+    <p><input type="text" placeholder="비밀번호" name="pnum" style="font-size: 20px;"></p>
+    <p id="login"><a href="로그인 데이터가 저장되어있는 주소" ><input type="submit" value="로그인" style="border-radius: 12px; width: 280; height: 50;"></a></p>
+    <p style="margin-top: 0;"><a href=""><input type="submit" value="회원가입" id="make"></a></p>
+    </form>
+  </body>
+
+</html>

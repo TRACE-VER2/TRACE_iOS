@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <style>
+    html, body{
+      width:300px;
+      height:600px;
+      margin: auto;
+      background-color: lightblue;
+    }
+    input{
+      background-color: lightblue;
+    }
+    a{
+      text-decoration:none;
+      color:black;
+      font-size:20px;
+    }
+    p{
+      text-align: center;
+    }
+    img {
+      max-width:70%;
+      height:auto;
+    }
+    .prev{
+      float: left;
+    }
+    .next{
+      float: right;
+    }
+    input[type=text]{
+      border:none;
+      border-bottom-style:solid;
+      width:230px;
+    }
+    input[type=button]{
+      border-radius: 5px;
+      font-size: 7px;
+      width: 50px;
+      height:25px;
+    }
+    input[type=password]{
+      border:none;
+      border-bottom-style:solid;
+      width:280px;
+    }
+    input[type=submit]{
+      border-radius: 10px;
+      font-weight: bold;
+      font-size:20px;
+      width: 200px;
+    }
+    </style>
+  </head>
+  <body>
+    <center><img src="trace2.png" alt="TRACE" style="width:200px;height:126px;"></center> <!--로고 이미지-->
+    <h2 style="text-align: center">아이디 설정</h2> <!--제목파트-->
+    <form action="주소여기에" method="post">  <!--입력받은 이름, 휴대폰 번호 어디론가 전송-->
+      <p><input type="text" placeholder="아이디" style="font-size:20px;" name="name"><input type="button" value="중복확인"></p> <!--이름 입력란-->
+      <p><input type="password" placeholder="비밀번호" style="font-size:20px;" name="pw"></p> <!--비밀번호 입력란-->
+      <p><input type="password" placeholder="비밀번호 확인" style="font-size:20px;" name="pwv"></p> <!--비밀번호 확인란-->
+      <p><input type="checkbox" name="select" value="agree"> 서비스의 이용약관에 동의합니다</p> <!--약관 동의-->
+      <center><input type="submit" name="register" value="회원가입"></center> <!--회원가입 버튼-->
+    </form>
+  </body>
+</html>

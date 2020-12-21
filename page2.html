@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기존 가입여부 확인</title>
+    <style>
+    html, body{
+      width:300px;
+      height:600px;
+      margin: auto;
+      background-color: lightblue;
+    }
+    input{
+      background-color: lightblue;
+    }
+    a{
+      text-decoration:none;
+      color:black;
+      font-size:20px;
+    }
+    p{
+      text-align: center;
+    }
+    img {
+      max-width:70%;
+      height:auto;
+    }
+    .prev{
+      float: left;
+    }
+    .next{
+      float: right;
+    }
+    input[type=text]{
+      border:none;
+      border-bottom-style:solid;
+      width:280px;
+    }
+    input[type=submit]{
+      border:none;
+      background:none;
+      font-weight: bold;
+      font-size:20px;
+    }
+    </style>
+  </head>
+  <body>
+    <center><img src="trace2.png" alt="TRACE"></center> <!--로고 이미지-->
+    <h3 style="text-align: center">기존 가입여부 확인</h3> <!--제목파트-->
+    <form action="" method="post">  <!--입력받은 이름, 휴대폰 번호 어디론가 전송-->
+    <p><input type="text" placeholder="이름" name="name"></p> <!--이름 입력란-->
+    <p><input type="text" placeholder="휴대폰 번호" name="pnum"></p> <!--휴대폰 번호 입력란-->
+    <footer style="clear: both">
+      <h3 class="prev"><a href="page1.html"><이전</a></h3> <!--이전화면으로 가기-->
+      <h3 class="next"><a href="page3.html"><input type="submit" value="다음>"></a></h3> <!--다음화면으로 가기, 데이터 전송-->
+    </footer>
+    </form>
+  </body>
+
+</html>
