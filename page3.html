@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이메일 인증</title>
+    <style>
+      a{
+        text-decoration:none;
+        color:black;
+        font-size:20px;
+      }
+      html, body{
+        width:300px;
+        height:600px;
+        margin: auto;
+      }
+      img {
+        max-width:70%;
+        height:auto;
+      }
+      .prev{
+        float: left;
+      }
+      .next{
+        float: right;
+      }
+      input[type=text]{
+        border:none;
+        border-bottom-style:solid;
+        width:280px;
+      }
+      input[type=submit]{
+        border:none;
+        background:none;
+        font-weight: bold;
+        font-size:20px;
+      }
+    </style>
+  </head>
+  <body>
+    <center><img src="trace2.png" alt="TRACE" style="width:200px;height:126px;"></center> <!--로고 이미지-->
+    <h3 style="text-align: center">킹고 이메일 인증</h3> <!--제목파트-->
+    <form action="" method="post"> <!--입력받은 이메일 어디론가 전송해야됨-->
+      <center><h3><input type="text" placeholder="킹고 이메일" name="kemail"></h3></center> <!--입력란-->
+      <h3 class="prev"><a href="page2.html"><이전</a></h3> <!--이전화면으로 가기-->
+      <h3 class="next"><a href="page4.html"><input type="submit" value="인증메일 발송"></a></h3> <!--다음 화면으로 가기, 데이터 전송-->
+    </form>
+  </body>
+</html>
